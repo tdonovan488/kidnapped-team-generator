@@ -1,0 +1,124 @@
+html{
+    width: 100vw
+}
+
+body{
+    background-color: #001219;
+    width: 100%;
+}
+
+.grid-container{
+    display: grid;
+    grid-row-gap: 2.5vh;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.grid-item{
+    width: 90vw;
+    height: 45vh;
+    padding: 1vh 1vh 1vh 1vh;
+    background-color: #9B2226;
+    border-radius: 10px;
+}
+
+#name-input{
+    text-align: center;
+    background-color: #EE9B00;
+    color: #E9D8A6;
+    outline: none;
+    border-style: none;
+    border-radius: 10px;
+    width: 85.5vw;
+    height: 2.5vh;
+    padding: 1vh 1vh 1vh 1vh;
+}
+
+#name-input::placeholder{
+    color: #E9D8A6;
+    text-align: center;
+}
+
+.driver-selector{
+    text-align: center;
+    background-color: #EE9B00;
+    color: #E9D8A6;
+    outline: none;
+    border-style: none;
+    border-radius: 10px;
+    width: 90vw;
+    height: 3vh;
+}
+.driver-selector:not(:last-child){
+    margin-bottom: 5px;
+}
+#add-driver{
+    margin-right: 2vw;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    background-color: #8ac926;
+    color: #E9D8A6;
+    outline: none;
+    border-style: none;
+    border-radius: 10px;
+    width: 43.25vw;
+    height: 3vh;
+}
+
+#remove-driver{
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    background-color: #AE2012;
+    color: #E9D8A6;
+    outline: none;
+    border-style: none;
+    border-radius: 10px;
+    width: 43.25vw;
+    height: 3vh;
+}
+
+.driver-holder{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    max-height: 13vH;
+    overflow-y: scroll;
+}
+
+.generate-button{
+    margin-top: 5px;
+    margin-right: 2vw;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    background-color: #8ac926;
+    color: #E9D8A6;
+    outline: none;
+    border-style: none;
+    border-radius: 10px;
+    width: 90vw;
+    height: 5vh;
+}
+
+#team-quantity-input{
+    margin-top:5px;
+    text-align: center;
+    background-color: #EE9B00;
+    color: #E9D8A6;
+    outline: none;
+    border-style: none;
+    border-radius: 10px;
+    width: 85.5vw;
+    height: 2.5vh;
+    padding: 1vh 1vh 1vh 1vh;
+}
+
+#team-quantity-input::placeholder{
+    color: #E9D8A6;
+    text-align: center;
+}
